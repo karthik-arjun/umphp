@@ -16,5 +16,5 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Expose the port Nginx will listen on
 EXPOSE 80
 
-# Start Nginx in the foreground
+# Start Nginx in the foregrounds
 CMD ["nginx", "-g", "daemon off;"]
