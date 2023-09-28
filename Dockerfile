@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 RUN mkdir -p /var/www/html
 
 # Clone your PHP website from Git
-RUN git clone https://github.com/yourusername/your-php-repo.git /var/www/html
+RUN git clone https://github.com/karthik-arjun/umphp.git /var/www/html
 
 # Copy your Nginx configuration file to the container
 COPY nginx.conf /etc/nginx/nginx.conf
